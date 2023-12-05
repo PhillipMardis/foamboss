@@ -1,0 +1,6 @@
+{
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "off",
+    "editor.formatOnSave": true,
+    "diffEditor.codeLens": true
+}
