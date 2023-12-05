@@ -1,4 +1,7 @@
 from django.shortcuts import render
+from .models import Shape
+
 
 def home(request):
-    return render(request, 'home.html', {})
+    shapes = Shape.objects.all()
+    return render(request, 'home.html', {'shapes': shapes})
