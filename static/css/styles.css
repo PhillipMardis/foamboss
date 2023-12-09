@@ -10824,3 +10824,19 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+.large-container {
+  background-image: url('../colorfoambg.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  height: 100vh; 
+  width: 100vw;
+}
+
+.bg-abt {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
